@@ -21,7 +21,7 @@ let rainbowCycle = [
 let currentHue = rainbowCycle[0]; //begin with red
 
 function setup() {
-  createCanvas(windowWidth, windowHeight); //canvas = size of computer screen
+  createCanvas(800, 400); //canvas = size of computer screen
   colorMode(HSB, 360, 100, 100, 255); //HSB mode
   noFill();
   strokeWeight(3);
